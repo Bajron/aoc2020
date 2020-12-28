@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.17)
+
 project(aoc2020)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 macro(aoc_app NAME)
         add_executable(${NAME}
@@ -14,3 +17,4 @@ endmacro()
 aoc_app(day1)
 aoc_app(day2)
 aoc_app(day3)
+aoc_app(day4)
