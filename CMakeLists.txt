@@ -13,3 +13,4 @@ endmacro()
 
 aoc_app(day1)
 aoc_app(day2)
+aoc_app(day3)
